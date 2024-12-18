@@ -1,12 +1,16 @@
 {
-  "name": "node-projects",
+  "name": "node-demo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "this is demo application",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
